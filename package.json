@@ -10,12 +10,16 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@fontsource/inter": "^5.2.8",
+    "@fontsource/nunito-sans": "^5.2.7",
+    "@fontsource/plus-jakarta-sans": "^5.2.8",
     "nuxt": "^4.4.6",
     "vue": "^3.5.34",
     "vue-router": "^5.0.7"
   },
   "devDependencies": {
     "@unocss/nuxt": "^66.7.0",
+    "@unocss/reset": "^66.7.0",
     "unocss": "^66.7.0"
   }
 }
