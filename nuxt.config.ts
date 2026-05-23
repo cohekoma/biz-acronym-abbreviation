@@ -18,7 +18,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'Tiếng Anh Viết Tắt - Thư viện chữ và từ viết tắt tiếng Anh cho dân công sở',
+      title: 'Tiếng Anh Viết Tắt - Thư viện từ tiếng Anh viết tắt trong môi trường công sở',
       meta: [
         {
           name: 'description',
