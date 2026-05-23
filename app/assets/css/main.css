@@ -1,0 +1,46 @@
+:root {
+  /* Base */
+  --color-background: #FFFDFC;
+  --color-surface: #FFFFFF;
+  --color-surface-soft: #FFF7F8;
+  --color-border: #F1E4E7;
+
+  /* Text */
+  --color-text-main: #111827;
+  --color-text-muted: #6B7280;
+  --color-text-soft: #9CA3AF;
+
+  /* Primary cute pink */
+  --color-primary: #E96F94;
+  --color-primary-soft: #FFE3EA;
+  --color-primary-border: #F8B8C8;
+
+  /* Business blue */
+  --color-blue: #5B8DEF;
+  --color-blue-soft: #EAF2FF;
+
+  /* Mint green */
+  --color-green: #59C7A0;
+  --color-green-soft: #E8FAF3;
+
+  /* Warm yellow */
+  --color-yellow: #F4B860;
+  --color-yellow-soft: #FFF3D8;
+
+  /* Lavender */
+  --color-purple: #A78BFA;
+  --color-purple-soft: #F1EAFE;
+
+  /* Soft orange */
+  --color-orange: #F2996E;
+  --color-orange-soft: #FFF0E8;
+}
+
+html {
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
