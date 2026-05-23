@@ -18,11 +18,11 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'BizAcronyms - English Business Acronyms Explained',
+      title: 'Tiếng Anh Viết Tắt - Thư viện chữ và từ viết tắt tiếng Anh cho dân công sở',
       meta: [
         {
           name: 'description',
-          content: 'English business acronyms explained in Vietnamese with clear context, examples, and related terms.'
+          content: 'Thư viện chữ và từ viết tắt trong tiếng Anh thường được sử dụng trong môi trường công sở ở đa lĩnh vực (pháp lý, công nghệ, quản trị, nhân sự, vận tải, etc.).'
         }
       ]
     }
