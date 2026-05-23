@@ -1,0 +1,39 @@
+{
+  "id": "nasa",
+  "term": "Dr",
+  "slug": "dr",
+  "status": "published",
+  "difficulty": "intermediate",
+  "shortDescription": "Dr là một cụm từ có đa ngữ nghĩa trong cả công nghệ, giáo dục, y học và game.",
+  "meanings": [
+    {
+      "context": "Y Học",
+      "fullForm": "Doctor",
+      "meaningVi": "Bác Sĩ",
+      "explanationVi": "Doctor được viết tắt dưới dạng Dr. có nghĩa là bác sĩ, người chữa bệnh trong y học.",
+      "exampleEn": "Dr. John is an extraordinary doctor!",
+      "exampleVi": "Bác sĩ John là một bác sĩ xuất sắc!",
+      "commonMistakes": [
+        "N/A"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "context": "Công Nghệ Thông Tin",
+      "fullForm": "Disaster Recovery",
+      "meaningVi": "Phục Hồi Sau Thảm Hoạ",
+      "explanationVi": "Quy trình phục hồi ứng dụng/hệ thống khi có thảm hoạ tự nhiên xảy ra.",
+      "exampleEn": "We need to have a DR plan in case of earthquake.",
+      "exampleVi": "Chúng ta cần chuẩn bị kế hoạch phục hồi sau thảm hoạ trong trường hợp có động đất xảy ra.",
+      "commonMistakes": [
+        "DR thường được dùng khi nhắc tới việc thiết lập kế hoạch, khi đứng một mình sẽ không có ý nghĩa hoàn chỉnh trong ngữ cảnh công nghệ."
+      ],
+      "relatedTerms": ["ACL", "DBA"]
+    }
+  ],
+  "seo": {
+    "title": "DR là gì? Ý nghĩa của DR trong các lĩnh vực khác nhau",
+    "description": "DR vừa có thể là bác sĩ, vừa có thể là tiến sĩ và nhiều ý nghĩa khác."
+  },
+  "updatedAt": "2026-05-23"
+}
