@@ -2,13 +2,15 @@ import {
   defineConfig,
   presetAttributify,
   presetUno,
+  presetWind3,
   transformerVariantGroup
 } from 'unocss'
 
 export default defineConfig({
   presets: [
     presetUno(),
-    presetAttributify()
+    presetAttributify(),
+    presetWind3()
   ],
 
   transformers: [
