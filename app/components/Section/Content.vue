@@ -4,7 +4,7 @@
       <!-- Recently added -->
       <div class="card p-5 sm:p-6">
         <div class="mb-5 flex items-center gap-2">
-          <h2 class="font-heading text-xl font-700">Recently added</h2>
+          <h2 class="font-heading text-xl font-700">Được thêm gần đây</h2>
           <span class="rounded-full bg-purple-soft px-2.5 py-1 text-xs font-700 text-purple">
             New
           </span>
@@ -27,14 +27,14 @@
         </div>
 
         <NuxtLink to="#" class="mt-4 inline-flex text-sm font-700 text-pink">
-          View all recent →
+          Xem thêm →
         </NuxtLink>
       </div>
 
       <!-- Popular acronyms -->
       <div class="card p-5 sm:p-6">
         <div class="mb-5 flex items-center justify-between">
-          <h2 class="font-heading text-xl font-700">Popular acronyms</h2>
+          <h2 class="font-heading text-xl font-700">Từ phổ biến</h2>
           <span class="text-pink">♡</span>
         </div>
 
@@ -53,7 +53,7 @@
         </ol>
 
         <NuxtLink to="#" class="mt-6 inline-flex text-sm font-700 text-pink">
-          View all popular →
+          Xem thêm →
         </NuxtLink>
       </div>
 
@@ -61,13 +61,11 @@
       <div class="relative overflow-hidden rounded-28px border border-pink-border bg-pink-soft p-6">
         <div class="relative z-10 max-w-58">
           <h2 class="font-heading text-2xl font-700 leading-tight">
-            Learn more.
-            <br>
-            Grow more.
+            Tài nguyên
           </h2>
 
           <p class="mt-4 leading-7 text-muted">
-            Curated resources, articles and tools to help you work smarter.
+            Tổng hợp các bài viết và nguồn tài nguyên tham khảo để hiểu rõ hơn về các từ khoá và thuật ngữ viết tắt.
           </p>
 
           <NuxtLink to="#" class="btn-soft mt-6 bg-white">
@@ -76,7 +74,7 @@
         </div>
 
         <div class="absolute bottom-4 right-4 hidden text-6xl sm:block">
-          🐱📘
+          📘
         </div>
       </div>
     </section>
@@ -87,7 +85,7 @@ const recentlyAdded = [
   {
     term: 'TCO',
     full: 'Total Cost of Ownership',
-    context: 'Finance',
+    context: 'Tài chính',
     age: '2 days ago'
   },
   {
@@ -99,7 +97,7 @@ const recentlyAdded = [
   {
     term: 'NDA',
     full: 'Non-Disclosure Agreement',
-    context: 'Legal',
+    context: 'Pháp lý',
     age: '5 days ago'
   }
 ]

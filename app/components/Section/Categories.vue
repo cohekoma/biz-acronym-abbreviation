@@ -3,14 +3,14 @@
     <section class="page-container py-10 sm:py-14">
       <div class="mb-7 flex items-end justify-between gap-4">
         <div>
-          <h2 class="section-title">Explore by category</h2>
+          <h2 class="section-title">Tìm theo danh mục ngữ cảnh</h2>
           <p class="section-subtitle">
-            Browse acronym meanings by business context.
+            Tìm thuật ngữ dựa theo các ngữ cảnh và ngành khác nhau
           </p>
         </div>
 
         <NuxtLink to="#" class="hidden text-sm font-700 text-pink sm:block">
-          View all categories →
+          Tất cả ngữ cảnh →
         </NuxtLink>
       </div>
 
@@ -31,7 +31,7 @@
             {{ category.name }}
           </p>
           <p class="mt-2 text-xs text-muted">
-            {{ category.count }} acronyms
+            {{ category.count }} từ
           </p>
         </NuxtLink>
       </div>
@@ -41,25 +41,25 @@
 <script setup>
 const categories = [
   {
-    name: 'Finance & Accounting',
+    name: 'Tài chính & Kế toán',
     count: 312,
     emoji: '📈',
     color: 'bg-green-soft'
   },
   {
-    name: 'Banking & Compliance',
+    name: 'Ngân hàng',
     count: 210,
     emoji: '🏦',
     color: 'bg-blue-soft'
   },
   {
-    name: 'Legal & Contracts',
+    name: 'Pháp lý',
     count: 178,
     emoji: '⚖️',
     color: 'bg-purple-soft'
   },
   {
-    name: 'Technology',
+    name: 'Công nghệ',
     count: 345,
     emoji: '💻',
     color: 'bg-orange-soft'
@@ -71,13 +71,13 @@ const categories = [
     color: 'bg-pink-soft'
   },
   {
-    name: 'HR & Operations',
+    name: 'HR',
     count: 132,
     emoji: '👥',
     color: 'bg-green-soft'
   },
   {
-    name: 'Startup & Business',
+    name: 'Kinh doanh & khởi nghiệp',
     count: 256,
     emoji: '🚀',
     color: 'bg-yellow-soft'
